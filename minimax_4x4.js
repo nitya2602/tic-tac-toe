@@ -117,7 +117,7 @@ function makeMove(elem) {
     }
     else if(level == 1)
     {
-        var chance = Math.floor(Math.random() * (9));
+        var chance = Math.floor(Math.random() * (15));
         if(chance <= 3) {
             botPos.index = avBoard[Math.floor(Math.random() * avBoard.length)];
             console.log("Random botPos = " + botPos.index);
